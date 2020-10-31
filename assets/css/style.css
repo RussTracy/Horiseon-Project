@@ -79,18 +79,23 @@ header nav ul li {
     color: #ffffff;
     overflow: auto;
 }
+.service-type img {
+    max-height: 200px;
+    max-width: 300px;
+    width: 35%;
+    float: left;
+}
 .service-type div{
     float: left;
     max-width: 65%;
-    padding: 10px;
+    padding-left: 25px;
 }
-.service-type img {
-    max-height: 200px;
-    max-width: 35%;
-    min-width: 200px;
-    float: left;
-    padding: 10px;
-    
+.even div {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.even img {
+    float: right;
 }
 .service-type h2 {
     margin-bottom: 20px;
@@ -110,17 +115,14 @@ header nav ul li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -136,8 +138,7 @@ header nav ul li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
 /* End Footer Styles */
